@@ -20,7 +20,9 @@ function blankslate_load_scripts()
     // Theme stylesheet.
     wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/css/bootstrap.min.css');
     wp_enqueue_style('bootstrap-theme', get_template_directory_uri().'/assets/css/bootstrap-theme.min.css');
+    // wp_enqueue_style('basic-style', get_template_directory_uri().'/assets/css/basic.css');
     wp_enqueue_style( 'blankslate-style', get_stylesheet_uri() );
+    // wp_enqueue_style( 'main-style', get_theme_file_uri( '/assets/css/main.css' ) );
 
     wp_enqueue_script( 'jquery-min', get_theme_file_uri( '/assets/js/jquery.min.js' ) );
     wp_enqueue_script( 'bootstrap-js', get_theme_file_uri( '/assets/js/bootstrap.min.js' ) );
