@@ -6,10 +6,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="sidebar col-md-3">
+        <!-- <div class="sidebar col-md-3">
 
-        </div>
-        <div class="company_introduction col-md-9">
+        </div> -->
+        <div class="company_introduction col-md-12">
             <div class="top_bar">
                 <h3>Recruitments</h3>
 
