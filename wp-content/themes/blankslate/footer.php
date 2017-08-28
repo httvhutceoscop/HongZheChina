@@ -6,10 +6,10 @@
         <div class="footer w1200 clearfix">
             <div class="footer-left">
                 <ul>
-                    <li><a href="#" target="_blank">弘哲官方微博</a><span>|</span></li>
-                    <li><a href="#">招贤纳士</a><span>|</span></li>
-                    <li><a href="#">联系我们</a><span>|</span></li>
-                    <li><a href="#">公司简介</a></li>
+                    <li><a href="#" target="_blank">Home</a><span>|</span></li>
+                    <li><a href="#">Profile</a><span>|</span></li>
+                    <li><a href="#">Recruiments</a><span>|</span></li>
+                    <li><a href="#">Contact us</a></li>
                 </ul>
                 <p>Copyright All Rights Reserved. <a href="javascript:void(0);">沪ICP备15013578号-1</a></p>
             </div>
@@ -26,9 +26,8 @@
 
             </span>
             <div class="contact">
-                <a href="#" target="_blank">弘哲官方微博</a>
                 <img src="<?php echo get_theme_file_uri('/assets/images/contact.png');?>">
-                <p>(周一至周五:9:00-18:00)</p>
+                <p>(Monday-Friday:9:00-18:00)</p>
             </div>
         </div>
     </div>    

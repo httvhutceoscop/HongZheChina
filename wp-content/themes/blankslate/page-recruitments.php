@@ -4,9 +4,33 @@
     <img alt="弘哲投资" src="<?php echo get_theme_file_uri('/assets/images/banners-qyry.jpg');?>">
 </div>
 
-<div class="main_content clearfix">
-    Recruitments Content
+<div class="container">
+    <div class="row">
+        <div class="sidebar col-md-3">
+
+        </div>
+        <div class="company_introduction col-md-9">
+            <div class="top_bar">
+                <h3>Recruitments</h3>
+
+                <p>Current location:<a href="#">Home</a><span class="array">&gt;</span><span><span class="red">Recruitments</span></span>
+                </p>
+
+            </div>
+            <div class="interview about_us">
+                <div class="contact">
+                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
+                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
+                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
+                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+
 <section id="content" role="main" class="hide">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
