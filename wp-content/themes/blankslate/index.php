@@ -1,6 +1,14 @@
 <?php get_header(); ?>
 
-<div id="introduction" role="introduction" class="section">
+<div id="slider-homepage" class="section">
+    <div class="container">
+    <?php 
+    echo do_shortcode('[smartslider3 slider=2]');
+    ?>
+    </div>
+</div>
+
+<div id="introduction" role="introduction" class="section hide">
     <div class="container">
     <div class="top">
             <div class="top-bg"></div>

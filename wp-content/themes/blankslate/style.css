@@ -16,6 +16,8 @@ BlankSlate is distributed under the terms of the GNU GPL
 
 body {
     font: 14px/1.5 Microsoft YaHei,"微软雅黑",sans-serif;
+    color: #111111;
+    background: #ffffff;
 }
 
 a {
@@ -89,7 +91,8 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 .header #menu-center ul li.current-menu-item a,
 .header #menu-center ul li:hover a {
-    color: #a70015;
+    color: #6edcdd;
+    font-weight: 600;
 }
 
 
@@ -175,7 +178,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 
 .main-content .top .selected {
-    background: #a70015;
+    background: #6edcdd;
 }
 
 .main-content .top .selected:after {
@@ -185,7 +188,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     display: block;
     content: '';
     border: transparent solid 6px;
-    border-right: #a70015 solid 6px;
+    border-right: #6edcdd solid 6px;
 }
 
 .main-content .top .banner-right {
@@ -207,7 +210,11 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 .main-content .top .more-btn {
     display: inline-block;
     margin-top: 30px;
-    color: #a70015;
+    color: #6edcdd;
+}
+
+.lang-item {
+    display: inline;
 }
 
 
@@ -263,7 +270,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     text-align: center;
     vertical-align: top;
     color: #fff;
-    background: #a70015;
+    background: #6edcdd;
 }
 
 .main-content .news-content .news-left .data-day {
@@ -310,7 +317,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 
 .main-content .news-content .news-btn .btn-up {
-    background: url(assets/images/up.png) no-repeat center #a70015;
+    background: url(assets/images/up.png) no-repeat center #6edcdd;
 }
 
 .main-content .news-content .news-btn .btn-up, .main-content .news-content .news-btn .btn-down {
@@ -326,7 +333,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 
 .main-content .news-content .news-btn .btn-down {
-    background: url(assets/images/down.png) no-repeat center #a70015;
+    background: url(assets/images/down.png) no-repeat center #6edcdd;
 }
 
 
@@ -340,7 +347,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     padding: 40px 55px;
     font-size: 32px;
     text-transform: uppercase;
-    color: #a70015;
+    color: #6edcdd;
 }
 
 .main-content #service .serve-box {    
@@ -351,7 +358,8 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
-    background: #a00015;
+    /* background: #a00015; */
+    background: #6edcdd;
     font-size: 16px;
     padding: 40px 10px;
 }
@@ -393,7 +401,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     line-height: 45px;
     font-size: 20px;
     color: #fff;
-    background: #a70015;
+    background: #6edcdd;
     float: left;
     text-align: center;
 }
@@ -409,7 +417,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 
 .main-content .cooperation-content .cooperation-title {
     display: inline-block;
-    color: #a70015;
+    color: #6edcdd;
     vertical-align: middle;
     padding: 40px 55px;
     font-size: 32px;
@@ -445,7 +453,8 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     line-height: 32px;
     font-size: 16px;
     color: #fff;
-    background: #9e0114 url(assets/images/ico.png) 18px -88px no-repeat;
+    /* background: #9E0013 url(assets/images/ico.png) 18px -88px no-repeat; */
+    background: #6edcdd url(assets/images/ico.png) 18px -88px no-repeat;
     margin-bottom: 0;
 }
 
@@ -462,7 +471,8 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     border-top: 1px solid #ffffff;
 }
 .sidebar .active a, .sidebar a:hover {
-    color: #9e0114;
+    /* color: #6edcdd; */
+    color: #6edcdd;
     text-decoration: none;
 }
 .sidebar a {
@@ -475,13 +485,14 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 .top_bar {
     height: 32px;
-    border-bottom: 1px solid #9e0114;
+    border-bottom: 1px solid #6edcdd;
     position: relative;
 }
 .top_bar h3 {
     /* position: absolute; */
     font-size: 20px;
-    color: #9e0114;
+    /* color: #6edcdd; */
+    color: #6edcdd;
 }
 .top_bar p, .top_bar a {
     color: #888;
@@ -496,7 +507,8 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     margin-right: 6px;
 }
 .top_bar .red {
-    color: #9e0114;
+    color: #6edcdd;
+    color: #6edcdd;
 }
 .about_us {
     padding: 20px 0;
@@ -530,7 +542,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 .contact h3 {
     font-size: 16px;
-    color: #9e0114;
+    color: #6edcdd;
     padding-left: 30px;
     margin-bottom: 10px;
 }
@@ -609,7 +621,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     border-color: #d59501 transparent transparent transparent;
 }
 .interview span {
-    color: #9e0114;
+    color: #6edcdd;
 }
 
 .gwtd li {
@@ -634,7 +646,7 @@ fieldset, img {
 
 .gwtd li h3 {
     font-size: 18px;
-    color: #000;
+    color: #6edcdd;
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
@@ -654,14 +666,14 @@ fieldset, img {
     width: 128px;
     margin-left: 40px;
     cursor: pointer;
-    color: #9e0114;
+    color: #6edcdd;
     margin-top: -3px;
 }
 .fzlc dl dt strong i {
-    border: 8px solid #9e0114;
+    border: 8px solid #6edcdd;
     width: 0;
     height: 0;
-    border-color: #9e0114 transparent transparent transparent;
+    border-color: #6edcdd transparent transparent transparent;
     display: inline-block;
     position: relative;
     top: 5px;
@@ -692,7 +704,7 @@ fieldset, img {
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: #9e0114;
+    background: #6edcdd;
     border-radius: 50%;
     position: absolute;
     right: 0;

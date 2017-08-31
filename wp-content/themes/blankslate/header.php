@@ -15,7 +15,7 @@
                 <div class="col-md-9">
                     <div id="logo">
                         <a class="logo" href="/">
-                            <img src="<?php echo get_theme_file_uri( '/assets/images/logo.png' ); ?>" alt="Logo">
+                            <img src="<?php echo get_theme_file_uri( '/assets/images/logo-h.png' ); ?>" alt="Logo">
                         </a>
                     </div>
                     <nav class="navbar navbar-default" role="navigation" id="header-menu">
@@ -48,6 +48,17 @@
                 </div>
                 <div class="col-md-3">
                     <div class="contact">
+                        <ul>
+                            <?php 
+                            $args = [
+                                'show_flags'=>1,
+                                'show_names'=>0,
+                                // 'dropdown'=>1,
+                                'hide_current' => 1
+                            ];
+                            pll_the_languages($args);
+                            ?>
+                        </ul>
                         <!-- <div><a href="http://weibo.com/hongzhecaifu" target="_blank">弘哲官方微博</a></div> -->
                         <img src="<?php echo get_theme_file_uri( '/assets/images/contact.png' ); ?>">
                         <p>(Monday-Friday:9:00-18:00)</p>

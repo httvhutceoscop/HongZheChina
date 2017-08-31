@@ -95,7 +95,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 }
 
 .main-content .top .selected {
-    background: #a70015;
+    background: #6edcdd;
 }
 
 .main-content .top .selected:after {
@@ -105,7 +105,7 @@ BlankSlate is distributed under the terms of the GNU GPL
     display: block;
     content: '';
     border: transparent solid 6px;
-    border-right: #a70015 solid 6px;
+    border-right: #6edcdd solid 6px;
 }
 
 .main-content .top .banner-right {
@@ -127,7 +127,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 .main-content .top .more-btn {
     display: inline-block;
     margin-top: 30px;
-    color: #a70015;
+    color: #6edcdd;
 }
 
 
@@ -183,7 +183,7 @@ BlankSlate is distributed under the terms of the GNU GPL
     text-align: center;
     vertical-align: top;
     color: #fff;
-    background: #a70015;
+    background: #6edcdd;
 }
 
 .main-content .news-content .news-left .data-day {
@@ -230,7 +230,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 }
 
 .main-content .news-content .news-btn .btn-up {
-    background: url(assets/images/up.png) no-repeat center #a70015;
+    background: url(assets/images/up.png) no-repeat center #6edcdd;
 }
 
 .main-content .news-content .news-btn .btn-up, .main-content .news-content .news-btn .btn-down {
@@ -246,7 +246,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 }
 
 .main-content .news-content .news-btn .btn-down {
-    background: url(assets/images/down.png) no-repeat center #a70015;
+    background: url(assets/images/down.png) no-repeat center #6edcdd;
 }
 
 
@@ -312,7 +312,7 @@ BlankSlate is distributed under the terms of the GNU GPL
     line-height: 45px;
     font-size: 20px;
     color: #fff;
-    background: #a70015;
+    background: #6edcdd;
     float: left;
     text-align: center;
 }
