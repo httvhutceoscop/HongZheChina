@@ -20,7 +20,7 @@
                 <div class="about-intro">
                     <div class="about-intro-hd">
                         <ul class="clearfix" id="tab-hd">
-                            <li class="cur">Profile<span></span></li>
+                            <li class="cur"><?php the_title(); ?><span></span></li>
                             <li>Culture<span></span></li>
                             <li>System construction<span></span></li>
                         </ul>
