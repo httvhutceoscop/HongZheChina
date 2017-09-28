@@ -14,7 +14,7 @@
         <div class="company_introduction col-md-9">
             <div class="top_bar">
                 <h3>Company Profile</h3>
-                <p>Current location:<a href="#"> Home</a><span class="array">&gt;</span><a href="#" class="red">Company Profile</a></p>
+                <p>Current location:<a href="<?php echo pll_home_url();?>"> Home</a><span class="array">&gt;</span><a href="#" class="red">Company Profile</a></p>
             </div>
             <div class="interview about_us">
                 <div class="about-intro">
