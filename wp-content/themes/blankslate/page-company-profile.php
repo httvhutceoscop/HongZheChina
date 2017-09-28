@@ -31,9 +31,13 @@
                             <p style="TEXT-ALIGN: center; MARGIN: 0px auto; DISPLAY: none; CURSOR: pointer" id="videoPlay" onclick="$(this).hide();$('#video').show();">
                                 <img src="<?php echo get_theme_file_uri('/assets/images/company-video.jpg');?>">
                             </p>
-                            <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                            <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                            <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
+
+
+                            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                            <section class="entry-content">
+                            <?php the_content(); ?>
+                            </section>
+                            <?php endwhile; endif; ?>
 
                             <h3><span>Hongzhe company's brand</span></h3>
 
