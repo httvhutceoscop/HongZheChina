@@ -4,17 +4,17 @@
 <div class="container">
     <div class="row">
         <div class="sidebar col-md-3">
-            <h3>Company Profile</h3>
+            <h3>Company</h3>
             <ul>
-                <li class="active"><a href="#">Company Profile</a></li>
-                <li><a href="#">Company culture</a></li>
-                <li><a href="#">Company system construction</a></li>
+                <li class="active"><a href="#">Profile</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">System construction</a></li>
             </ul>
         </div>
         <div class="company_introduction col-md-9">
             <div class="top_bar">
                 <h3>Company Profile</h3>
-                <p>Current location:<a href="<?php echo pll_home_url();?>"> Home</a><span class="array">&gt;</span><a href="#" class="red">Company Profile</a></p>
+                <p>Current location:<a href="<?php echo pll_home_url();?>"> Home</a><span class="array">&gt;</span><a href="#" class="red"><?php the_title(); ?></a></p>
             </div>
             <div class="interview about_us">
                 <div class="about-intro">
