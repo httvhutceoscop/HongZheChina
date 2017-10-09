@@ -15,7 +15,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 */
 
 body {
-    font: 14px/1.5 Microsoft YaHei,"微软雅黑",sans-serif;
+    font: 14px/1.5 Microsoft YaHei, "微软雅黑", sans-serif;
     color: #111111;
     background: #ffffff;
 }
@@ -24,45 +24,94 @@ a {
     text-decoration: none;
     color: #666;
 }
+
 a:hover {
     text-decoration: underline;
     color: #333;
 }
-:link, :visited, ins {
+
+:link,
+ :visited,
+ins {
     text-decoration: none;
 }
+
 :focus {
     outline: 0;
 }
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
     margin: 0;
     padding: 0;
 }
-ol, ul {
+
+ol,
+ul {
     list-style: none outside none;
 }
-address, caption, cite, code, dfn, em, i, th, var, optgroup {
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+i,
+th,
+var,
+optgroup {
     font-style: normal;
     font-weight: normal;
 }
 
+
 /* Header */
+
 .header {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .header .contact {
     font-size: 14px;
     text-align: right;
 }
+
 .header #logo {
     margin-bottom: 15px;
 }
+
 .header .logo {
     display: block;
     width: 150px;
     /* height: 59px; */
 }
+
 .header .logo img {
     max-width: 100%;
 }
@@ -89,9 +138,10 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     font-size: 14px;
     vertical-align: middle;
 }
+
 .header #menu-center ul li.current-menu-item a,
 .header #menu-center ul li:hover a {
-    color: #6edcdd;
+    color: #4367b1;
     font-weight: 600;
 }
 
@@ -133,7 +183,8 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     background: #fff;
 }
 
-.main-content .top .banner-left, .main-content .top .banner-right {
+.main-content .top .banner-left,
+.main-content .top .banner-right {
     display: inline-block;
 }
 
@@ -178,7 +229,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 
 .main-content .top .selected {
-    background: #6edcdd;
+    background: #4367b1;
 }
 
 .main-content .top .selected:after {
@@ -188,7 +239,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     display: block;
     content: '';
     border: transparent solid 6px;
-    border-right: #6edcdd solid 6px;
+    border-right: #4367b1 solid 6px;
 }
 
 .main-content .top .banner-right {
@@ -210,7 +261,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 .main-content .top .more-btn {
     display: inline-block;
     margin-top: 30px;
-    color: #6edcdd;
+    color: #4367b1;
 }
 
 .lang-item {
@@ -218,7 +269,9 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 
 
+
 /* News Section */
+
 .main-content .news-content {
     position: relative;
     height: 633px;
@@ -270,7 +323,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     text-align: center;
     vertical-align: top;
     color: #fff;
-    background: #6edcdd;
+    background: #4367b1;
 }
 
 .main-content .news-content .news-left .data-day {
@@ -317,10 +370,11 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 
 .main-content .news-content .news-btn .btn-up {
-    background: url(assets/images/up.png) no-repeat center #6edcdd;
+    background: url(assets/images/up.png) no-repeat center #4367b1;
 }
 
-.main-content .news-content .news-btn .btn-up, .main-content .news-content .news-btn .btn-down {
+.main-content .news-content .news-btn .btn-up,
+.main-content .news-content .news-btn .btn-down {
     padding: 34px 43px;
     border: solid #fff 1px;
     cursor: pointer;
@@ -333,7 +387,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 }
 
 .main-content .news-content .news-btn .btn-down {
-    background: url(assets/images/down.png) no-repeat center #6edcdd;
+    background: url(assets/images/down.png) no-repeat center #4367b1;
 }
 
 
@@ -347,10 +401,10 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     padding: 40px 55px;
     font-size: 32px;
     text-transform: uppercase;
-    color: #6edcdd;
+    color: #4367b1;
 }
 
-.main-content #service .serve-box {    
+.main-content #service .serve-box {
     padding: 0 54px;
 }
 
@@ -359,7 +413,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     text-transform: uppercase;
     color: #ffffff;
     /* background: #a00015; */
-    background: #6edcdd;
+    background: #4367b1;
     font-size: 16px;
     padding: 40px 10px;
 }
@@ -401,7 +455,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     line-height: 45px;
     font-size: 20px;
     color: #fff;
-    background: #6edcdd;
+    background: #4367b1;
     float: left;
     text-align: center;
 }
@@ -417,7 +471,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 
 .main-content .cooperation-content .cooperation-title {
     display: inline-block;
-    color: #6edcdd;
+    color: #4367b1;
     vertical-align: middle;
     padding: 40px 55px;
     font-size: 32px;
@@ -430,7 +484,9 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 
 
 
+
 /* Contact page */
+
 .main_content {
     width: 980px;
     display: table;
@@ -440,6 +496,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 .main_content ul {
     padding: 0;
 }
+
 
 /* .sidebar {
     float: left;
@@ -454,7 +511,7 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     font-size: 16px;
     color: #fff;
     /* background: #9E0013 url(assets/images/ico.png) 18px -88px no-repeat; */
-    background: #6edcdd url(assets/images/ico.png) 18px -88px no-repeat;
+    background: #4367b1 url(assets/images/ico.png) 18px -88px no-repeat;
     margin-bottom: 0;
 }
 
@@ -464,17 +521,21 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     margin-bottom: 20px;
     padding: 0 24px 10px;
 }
+
 .sidebar ul li {
     height: 36px;
     line-height: 36px;
     border-bottom: 1px solid #d5d5d5;
     border-top: 1px solid #ffffff;
 }
-.sidebar .active a, .sidebar a:hover {
-    /* color: #6edcdd; */
-    color: #6edcdd;
+
+.sidebar .active a,
+.sidebar a:hover {
+    /* color: #4367b1; */
+    color: #4367b1;
     text-decoration: none;
 }
+
 .sidebar a {
     font-size: 16px;
     color: #6a6a6a;
@@ -483,88 +544,109 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
 .company_introduction {
     color: #5E5E5E;
 }
+
 .top_bar {
     height: 32px;
-    border-bottom: 1px solid #6edcdd;
+    border-bottom: 1px solid #4367b1;
     position: relative;
 }
+
 .top_bar h3 {
     /* position: absolute; */
     font-size: 20px;
-    /* color: #6edcdd; */
-    color: #6edcdd;
+    /* color: #4367b1; */
+    color: #4367b1;
 }
-.top_bar p, .top_bar a {
+
+.top_bar p,
+.top_bar a {
     color: #888;
     font-size: 12px;
 }
+
 .top_bar p {
     position: absolute;
     right: 0;
     top: 10px;
 }
+
 .top_bar .array {
     margin-right: 6px;
 }
+
 .top_bar .red {
-    color: #6edcdd;
-    color: #6edcdd;
+    color: #4367b1;
+    color: #4367b1;
 }
+
 .about_us {
     padding: 20px 0;
 }
+
 .contact {
     padding-left: 20px;
 }
+
 .about_us p {
     line-height: 24px;
     margin-bottom: 18px;
 }
+
 .contact p {
     font-size: 14px;
     color: #666;
     margin: 10px 0 !important;
     text-indent: 20px;
 }
+
 .contact .address {
     margin-top: 20px;
     background: url(assets/images/ico.png) -57px -235px no-repeat;
 }
+
 .contact span {
     font-size: 18px;
     color: #333;
     padding-left: 10px;
     margin-right: 15px;
 }
+
 .about_us h3 {
     font-weight: bold;
     line-height: 24px;
 }
+
 .contact h3 {
     font-size: 16px;
-    color: #6edcdd;
+    color: #4367b1;
     padding-left: 30px;
     margin-bottom: 10px;
 }
+
 .contact .phone {
     background: url(assets/images/ico.png) -57px -205px no-repeat;
     margin-top: 20px;
 }
+
 .contact .email {
     background: url(assets/images/ico.png) 0 -262px no-repeat;
 }
+
 .contact img {
     max-width: 100%;
 }
 
 
 
+
 /* Honors page */
+
 .qyry li {
     border-bottom: 1px solid #d6d6d6;
     text-align: center;
     margin-bottom: 20px;
 }
+
 .qyry li h3 {
     margin: 20px 0;
     font-size: 16px;
@@ -576,11 +658,14 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     overflow: hidden;
     margin-bottom: 20px;
 }
+
 .secondary_banner img {
     max-width: 100%;
 }
 
+
 /* Company Profile Page */
+
 .about-intro-hd {
     margin-bottom: 20px;
     zoom: 1;
@@ -590,7 +675,8 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     padding: 0;
 }
 
-.about-intro-hd ul li:hover, .about-intro-hd ul li.cur {
+.about-intro-hd ul li:hover,
+.about-intro-hd ul li.cur {
     background: #d59501;
 }
 
@@ -608,9 +694,12 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     background: #e2b54d;
     cursor: pointer;
 }
-.about-intro-hd li:hover span, .about-intro-hd li.cur span {
+
+.about-intro-hd li:hover span,
+.about-intro-hd li.cur span {
     display: block;
 }
+
 .about-intro-hd ul li span {
     position: absolute;
     left: 50%;
@@ -620,8 +709,9 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     border: 5px solid #d59501;
     border-color: #d59501 transparent transparent transparent;
 }
+
 .interview span {
-    color: #6edcdd;
+    color: #4367b1;
 }
 
 .gwtd li {
@@ -635,7 +725,8 @@ address, caption, cite, code, dfn, em, i, th, var, optgroup {
     width: 178px;
 }
 
-fieldset, img {
+fieldset,
+img {
     border: 0 none;
 }
 
@@ -646,7 +737,7 @@ fieldset, img {
 
 .gwtd li h3 {
     font-size: 18px;
-    color: #6edcdd;
+    color: #4367b1;
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
@@ -656,29 +747,33 @@ fieldset, img {
 .fzlc {
     background: url(assets/images/line.jpg) repeat-y 150px 0;
 }
+
 .fzlc dl dt {
     font-size: 20px;
     height: 40px;
     margin-bottom: 40px;
 }
+
 .fzlc dl dt strong {
     float: left;
     width: 128px;
     margin-left: 40px;
     cursor: pointer;
-    color: #6edcdd;
+    color: #4367b1;
     margin-top: -3px;
 }
+
 .fzlc dl dt strong i {
-    border: 8px solid #6edcdd;
+    border: 8px solid #4367b1;
     width: 0;
     height: 0;
-    border-color: #6edcdd transparent transparent transparent;
+    border-color: #4367b1 transparent transparent transparent;
     display: inline-block;
     position: relative;
     top: 5px;
     margin-left: 5px;
 }
+
 .fzlc dl dt strong em {
     display: inline-block;
     width: 24px;
@@ -688,10 +783,12 @@ fieldset, img {
     position: relative;
     top: 3px;
 }
+
 .fzlc dl dd {
     padding-left: 30px;
     font-size: 16px;
 }
+
 .fzlc dl dd strong {
     float: left;
     width: 128px;
@@ -700,16 +797,18 @@ fieldset, img {
     margin-top: 5px;
     position: relative;
 }
+
 .fzlc dl dd strong em {
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: #6edcdd;
+    background: #4367b1;
     border-radius: 50%;
     position: absolute;
     right: 0;
     top: 5px;
 }
+
 .fzlc dl dd p {
     display: block;
     padding-left: 20px;
@@ -723,6 +822,7 @@ fieldset, img {
     text-align: center;
     margin: 40px 0;
 }
+
 .jtjs h3 span {
     display: inline-block;
     font-size: 20px;
@@ -734,12 +834,15 @@ fieldset, img {
     top: -10px;
     margin-left: -90px;
 }
+
 .about-jtjs-hd {
     zoom: 1;
 }
+
 .about-jtjs-hd li {
     margin-right: 10px\9;
 }
+
 .about-jtjs-hd li {
     width: 110px;
     margin-bottom: 20px;
@@ -750,21 +853,28 @@ fieldset, img {
     cursor: pointer;
     text-align: center;
 }
+
 .about-jtjs-hd li:last-child {
     margin-right: 0;
 }
-.about-jtjs-hd li:hover img, .about-jtjs-hd li.cur img {
+
+.about-jtjs-hd li:hover img,
+.about-jtjs-hd li.cur img {
     border: 5px solid #ccc;
 }
+
 .about-jtjs-hd li img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
     border: 5px solid #eee;
 }
-.about-jtjs-hd li:hover span, .about-jtjs-hd li.cur span {
+
+.about-jtjs-hd li:hover span,
+.about-jtjs-hd li.cur span {
     display: block;
 }
+
 .about-jtjs-hd li span {
     position: absolute;
     left: 50%;
@@ -776,31 +886,39 @@ fieldset, img {
 }
 
 
+
 /* Footer */
+
 #footer {
     border-top: 1px solid #e6e6e6;
     margin-top: 30px;
     background: #e6e6e6;
 }
+
 .footer {
     padding: 30px 0;
     color: #000;
 }
+
 .footer .footer-left {
     float: left;
     padding-top: 40px;
     font-size: 14px;
 }
+
 .footer ul {
     display: inline-block;
 }
+
 .footer ul li {
     float: left;
     line-height: 22px;
 }
+
 .footer ul li:first-child a {
     padding-left: 0;
 }
+
 .footer ul li a {
     padding: 0 10px;
 }
@@ -810,14 +928,17 @@ fieldset, img {
     padding-top: 44px;
     padding-left: 10px;
 }
+
 .safe {
     position: relative;
     top: -5px;
 }
+
 .footer .safe img {
     width: 75px;
     margin-left: 15px;
 }
+
 .footer .contact {
     width: 215px;
     float: right;
@@ -918,10 +1039,10 @@ fieldset, img {
 }
 
 @media (min-width: 768px) {
-.col-sm-15 {
+    .col-sm-15 {
         width: 20%;
         float: left;
-    }    
+    }
 }
 
 @media (min-width: 992px) {

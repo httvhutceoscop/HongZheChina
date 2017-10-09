@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Polylang - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-11 23:54:24+0000\n"
+"PO-Revision-Date: 2017-07-16 07:34:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,19 +15,19 @@ msgstr ""
 msgid "Tibet"
 msgstr "チベット"
 
-#. #-#-#-#-#  polylang-code.pot (Polylang 2.1.5)  #-#-#-#-#
+#. #-#-#-#-#  polylang-code.pot (Polylang 2.2.3)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  polylang-code.pot (Polylang 2.1.5)  #-#-#-#-#
+#. #-#-#-#-#  polylang-code.pot (Polylang 2.2.3)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://polylang.pro"
 msgstr "https://polylang.pro"
 
-#: settings/settings-module.php:239
+#: settings/settings-module.php:238
 msgid "Upgrade now."
 msgstr "今すぐアップグレードを。"
 
 #. translators: %s is a product name
-#: settings/settings-licenses.php:125
+#: settings/settings-licenses.php:128
 msgid "This is not a %s license key."
 msgstr "これは %s のライセンスキーではありません。"
 
@@ -52,7 +52,7 @@ msgctxt "daily archives date format"
 msgid "F j, Y"
 msgstr "Y年n月j日"
 
-#: settings/view-tab-lang.php:116
+#: settings/view-tab-lang.php:138
 msgid "Choose a flag for the language."
 msgstr "言語の国旗を選択します。"
 
@@ -108,12 +108,12 @@ msgid "There are posts, pages, categories or tags without language."
 msgstr "言語が設定されていない投稿、ページ、カテゴリー、またはタグがあります。"
 
 #. translators: %s is an url
-#: settings/settings-url.php:242
+#: settings/settings-url.php:279
 msgid "Polylang was unable to access the URL %s. Please check that the URL is valid."
 msgstr "Polylang は %s にアクセスできませんでした。この URL が有効であることをチェックしてください。"
 
 #. translators: %s is a native language name
-#: settings/settings-url.php:197
+#: settings/settings-url.php:231
 msgid "Please enter a valid URL for %s."
 msgstr "有効な %s の URL を入力してください。"
 
@@ -133,7 +133,7 @@ msgstr "無効"
 msgid "Activate this module"
 msgstr "このモジュールを有効にする"
 
-#: settings/settings-licenses.php:140 settings/settings-module.php:50
+#: settings/settings-licenses.php:143 settings/settings-module.php:50
 msgid "Deactivate"
 msgstr "無効化"
 
@@ -1119,7 +1119,7 @@ msgstr "オランダ領アンティル"
 
 #: settings/flags.php:21
 msgid "Armenia"
-msgstr "アルメリア"
+msgstr "アルメニア"
 
 #: settings/flags.php:20
 msgid "Albania"
@@ -1154,15 +1154,15 @@ msgid "WPML Compatibility"
 msgstr "WPML 互換"
 
 #. translators: accessibility text
-#: admin/view-translations-post.php:53 admin/view-translations-term.php:64
+#: admin/view-translations-post.php:57 admin/view-translations-term.php:76
 msgid "Translation"
 msgstr "翻訳"
 
-#: admin/admin-static-pages.php:48
+#: admin/admin-static-pages.php:72
 msgid "Posts Page"
 msgstr "フロントページ"
 
-#: admin/admin-static-pages.php:44
+#: admin/admin-static-pages.php:68
 msgid "Front Page"
 msgstr "サイトトップ"
 
@@ -1207,7 +1207,7 @@ msgstr "WordPress に多言語機能を追加する"
 msgid "Polylang"
 msgstr "Polylang"
 
-#: lingotek/lingotek.php:262
+#: lingotek/lingotek.php:268
 msgid "Learn more..."
 msgstr "詳細..."
 
@@ -1340,16 +1340,16 @@ msgid "You’ve just upgraded to the latest version of Polylang! Would you like 
 msgstr "最新バージョンの Polylang へのアップグレードは正常に完了しました。ウェブサイトを無料で自動的に翻訳しますか?"
 
 #. translators: %s are Polylang version numbers
-#: install/upgrade.php:77
+#: install/upgrade.php:79
 msgid "Please upgrade first to %s before ugrading to %s."
 msgstr "%s にアップグレードする前に、まず %s にアップグレードしてください。"
 
-#: install/upgrade.php:74
+#: install/upgrade.php:76
 msgid "Polylang has been deactivated because you upgraded from a too old version."
 msgstr "アップグレード元のバージョンが古いため、Polylang は無効になっています。"
 
 #. translators: %s are WordPress version numbers
-#: install/install.php:25
+#: install/install.php:27
 msgid "You are using WordPress %s. Polylang requires at least WordPress %s."
 msgstr "WordPress %s を使用されています。Polylang を使用するには、WordPress %s 以降が必要です。"
 
@@ -1395,11 +1395,11 @@ msgstr "国旗を表示する"
 msgid "Displays language names"
 msgstr "言語名を表示する"
 
-#: modules/plugins/plugins-compat.php:102
+#: modules/plugins/plugins-compat.php:108
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
 msgstr "WordPress エクスポートファイルから<strong>投稿、ページ、コメント、カスタムフィールド、カテゴリー、およびタグ</strong>をインポートします。"
 
-#: include/model.php:396
+#: include/model.php:371
 msgid "Uncategorized"
 msgstr "未分類"
 
@@ -1408,15 +1408,15 @@ msgstr "未分類"
 msgid "Search"
 msgstr "検索"
 
-#: settings/view-tab-strings.php:18
+#: settings/view-tab-strings.php:20
 msgid "Use this to remove unused strings from database, for example after a plugin has been uninstalled."
 msgstr "これをオンにすると、使用されていない文字列がデータベースから削除されます (プラグインをアンインストールした後など)。"
 
-#: settings/view-tab-strings.php:17
+#: settings/view-tab-strings.php:18
 msgid "Clean strings translation database"
 msgstr "文字列翻訳データベースをクリーンアップする"
 
-#: settings/view-tab-strings.php:14
+#: settings/view-tab-strings.php:15
 msgid "Search translations"
 msgstr "翻訳を検索"
 
@@ -1428,15 +1428,15 @@ msgstr "同期オプションを使用することにより、投稿の翻訳と
 msgid "Synchronization"
 msgstr "同期"
 
-#: settings/settings-cpt.php:86
+#: settings/settings-cpt.php:92
 msgid "Activate languages and translations for custom taxonomies."
 msgstr "カスタムタクソノミーの言語と翻訳を有効にする"
 
-#: settings/settings-cpt.php:72
+#: settings/settings-cpt.php:76
 msgid "Custom taxonomies"
 msgstr "カスタムタクソノミー"
 
-#: settings/settings-cpt.php:68
+#: settings/settings-cpt.php:70
 msgid "Activate languages and translations for custom post types."
 msgstr "カスタム投稿タイプの言語と翻訳を有効にする"
 
@@ -1461,52 +1461,52 @@ msgid "Detect browser language"
 msgstr "ブラウザーの言語の検出"
 
 #. translators: %s are urls
-#: settings/settings-url.php:141
+#: settings/settings-url.php:166
 msgid "Example: %s instead of %s"
 msgstr "例: %s ではなく %s"
 
-#: settings/settings-url.php:132
+#: settings/settings-url.php:155
 msgid "The front page url contains the language code instead of the page name or page id"
 msgstr "フロントページの URL にページ名またはページ ID の代わりに言語コードが含まれています"
 
-#: settings/settings-url.php:116
+#: settings/settings-url.php:135
 msgid "Keep /language/ in pretty permalinks"
 msgstr "プリティーパーマリンクの /language/ を維持する"
 
-#: settings/settings-url.php:107
+#: settings/settings-url.php:124
 msgid "Remove /language/ in pretty permalinks"
 msgstr "プリティーパーマリンクの /language/ を削除する"
 
-#: settings/settings-url.php:91
+#: settings/settings-url.php:104
 msgid "Hide URL language information for default language"
 msgstr "URL にデフォルトの言語の言語情報を表示しない"
 
-#: settings/settings-url.php:65
+#: settings/settings-url.php:72
 msgid "The language is set from different domains"
 msgstr "言語は他のドメインから設定される"
 
-#: settings/settings-url.php:56
+#: settings/settings-url.php:61
 msgid "The language is set from the subdomain name in pretty permalinks"
 msgstr "言語はプリティーパーマリンク内のサブドメイン名から設定される"
 
-#: settings/settings-url.php:50 settings/settings-url.php:59
-#: settings/settings-url.php:110 settings/settings-url.php:119
+#: settings/settings-url.php:54 settings/settings-url.php:65
+#: settings/settings-url.php:128 settings/settings-url.php:139
 msgid "Example:"
 msgstr "例:"
 
-#: settings/settings-url.php:47
+#: settings/settings-url.php:50
 msgid "The language is set from the code in the URL"
 msgstr "言語は URL 内のコードから設定される"
 
-#: settings/settings-url.php:47
+#: settings/settings-url.php:50
 msgid "The language is set from the directory name in pretty permalinks"
 msgstr "言語はプリティーパーマリンク内のディレクトリ名から設定される"
 
-#: settings/settings-url.php:42
+#: settings/settings-url.php:44
 msgid "Posts, pages, categories and tags urls are not modified."
 msgstr "投稿、ページ、カテゴリー、およびタグの URL は修正されません。"
 
-#: settings/settings-url.php:39
+#: settings/settings-url.php:40
 msgid "The language is set from content"
 msgstr "言語はコンテンツから設定される"
 
@@ -1519,59 +1519,59 @@ msgstr "URL の修正"
 msgid "Default language"
 msgstr "デフォルトの言語"
 
-#: settings/view-tab-lang.php:146
+#: settings/view-tab-lang.php:170
 msgid "Update"
 msgstr "更新"
 
-#: settings/view-tab-lang.php:125
+#: settings/view-tab-lang.php:149
 msgid "Position of the language in the language switcher"
 msgstr "この言語の言語スイッチャーでの位置を指定してください"
 
-#: settings/view-tab-lang.php:99
+#: settings/view-tab-lang.php:119
 msgid "Choose the text direction for the language"
 msgstr "この言語のテキストの方向を選択してください"
 
-#: settings/view-tab-lang.php:97
+#: settings/view-tab-lang.php:116
 msgid "right to left"
 msgstr "右から左"
 
-#: settings/view-tab-lang.php:92
+#: settings/view-tab-lang.php:111
 msgid "left to right"
 msgstr "左から右"
 
-#: settings/view-tab-lang.php:88
+#: settings/view-tab-lang.php:106
 msgid "Text direction"
 msgstr "テキストの方向"
 
-#: settings/view-tab-lang.php:84
+#: settings/view-tab-lang.php:102
 msgid "Language code - preferably 2-letters ISO 639-1  (for example: en)"
 msgstr "言語コード。ISO 639-1 準拠の 2 文字 (「en」など) を使用することを推奨します。"
 
-#: settings/view-tab-lang.php:79
+#: settings/view-tab-lang.php:95
 msgid "Language code"
 msgstr "言語コード"
 
-#: settings/view-tab-lang.php:75
+#: settings/view-tab-lang.php:91
 msgid "WordPress Locale for the language (for example: en_US). You will need to install the .mo file for this language."
 msgstr "言語の WordPress ロケール (「en_GB」など)。この言語の .mo ファイルをインストールする必要があります。"
 
-#: settings/view-tab-lang.php:66
+#: settings/view-tab-lang.php:80
 msgid "The name is how it is displayed on your site (for example: English)."
 msgstr "サイトに表示される名称 (「English」など)。"
 
-#: settings/view-tab-lang.php:57
+#: settings/view-tab-lang.php:69
 msgid "You can choose a language in the list or directly edit it below."
 msgstr "リストから言語を選択するか、以下で言語を直接編集してください。"
 
-#: include/widget-languages.php:48 settings/view-tab-lang.php:42
+#: include/widget-languages.php:48 settings/view-tab-lang.php:52
 msgid "Choose a language"
 msgstr "言語を選択"
 
-#: settings/view-tab-lang.php:27 settings/view-tab-lang.php:146
+#: settings/view-tab-lang.php:31 settings/view-tab-lang.php:170
 msgid "Add new language"
 msgstr "言語を追加"
 
-#: settings/view-tab-lang.php:27
+#: settings/view-tab-lang.php:31
 msgid "Edit language"
 msgstr "言語を編集"
 
@@ -1584,7 +1584,7 @@ msgid "View all groups"
 msgstr "すべてのグループを表示"
 
 #: admin/view-translations-media.php:12 admin/view-translations-post.php:11
-#: admin/view-translations-term.php:13 admin/view-translations-term.php:18
+#: admin/view-translations-term.php:13 admin/view-translations-term.php:20
 #: settings/table-string.php:119
 msgid "Translations"
 msgstr "翻訳"
@@ -1605,11 +1605,11 @@ msgstr "文字列"
 msgid "Posts"
 msgstr "投稿"
 
-#: settings/table-languages.php:149 settings/view-tab-lang.php:103
+#: settings/table-languages.php:149 settings/view-tab-lang.php:123
 msgid "Flag"
 msgstr "国旗"
 
-#: settings/table-languages.php:148 settings/view-tab-lang.php:120
+#: settings/table-languages.php:148 settings/view-tab-lang.php:142
 msgid "Order"
 msgstr "順序"
 
@@ -1617,11 +1617,11 @@ msgstr "順序"
 msgid "Code"
 msgstr "コード"
 
-#: settings/table-languages.php:145 settings/view-tab-lang.php:70
+#: settings/table-languages.php:145 settings/view-tab-lang.php:84
 msgid "Locale"
 msgstr "ロケール"
 
-#: settings/table-languages.php:144 settings/view-tab-lang.php:61
+#: settings/table-languages.php:144 settings/view-tab-lang.php:73
 msgid "Full name"
 msgstr "名称"
 
@@ -1633,51 +1633,51 @@ msgstr "削除"
 msgid "You are about to permanently delete this language. Are you sure?"
 msgstr "この言語を完全に削除しますか?"
 
-#: modules/sync/settings-sync.php:95
+#: modules/sync/settings-sync.php:99
 msgid "Featured image"
 msgstr "アイキャッチ画像"
 
-#: modules/sync/settings-sync.php:94
+#: modules/sync/settings-sync.php:98
 msgid "Page order"
 msgstr "ページの順序"
 
-#: modules/sync/settings-sync.php:93
+#: modules/sync/settings-sync.php:97
 msgid "Page template"
 msgstr "ページテンプレート"
 
-#: modules/sync/settings-sync.php:92
+#: modules/sync/settings-sync.php:96
 msgid "Page parent"
 msgstr "親ページ"
 
-#: modules/sync/settings-sync.php:91
+#: modules/sync/settings-sync.php:95
 msgid "Post format"
 msgstr "投稿フォーマット"
 
-#: modules/sync/settings-sync.php:90
+#: modules/sync/settings-sync.php:94
 msgid "Published date"
 msgstr "公開日"
 
-#: modules/sync/settings-sync.php:89
+#: modules/sync/settings-sync.php:93
 msgid "Sticky posts"
 msgstr "固定投稿"
 
-#: modules/sync/settings-sync.php:88
+#: modules/sync/settings-sync.php:92
 msgid "Ping status"
 msgstr "Ping のステータス"
 
-#: modules/sync/settings-sync.php:87
+#: modules/sync/settings-sync.php:91
 msgid "Comment status"
 msgstr "コメントのステータス"
 
-#: modules/sync/settings-sync.php:86
+#: modules/sync/settings-sync.php:90
 msgid "Custom fields"
 msgstr "カスタムフィールド"
 
-#: modules/sync/settings-sync.php:85
+#: modules/sync/settings-sync.php:89
 msgid "Taxonomies"
 msgstr "タクソノミー"
 
-#: settings/settings-licenses.php:190 settings/settings-module.php:180
+#: settings/settings-licenses.php:193 settings/settings-module.php:179
 msgid "Settings saved."
 msgstr "設定を保存しました。"
 
@@ -1685,7 +1685,7 @@ msgstr "設定を保存しました。"
 msgid "Translations updated."
 msgstr "翻訳が更新されました。"
 
-#: admin/admin-base.php:75 include/mo.php:18 settings/settings.php:129
+#: admin/admin-base.php:73 include/mo.php:18 settings/settings.php:129
 msgid "Strings translations"
 msgstr "文字列翻訳"
 
@@ -1697,15 +1697,15 @@ msgstr "Polylang について"
 msgid "The language was created, but the WordPress language file was not downloaded. Please install it manually."
 msgstr "言語は作成されましたが、WordPress の言語ファイルはダウンロードされませんでした。このファイルを手動でインストールしてください。"
 
-#: admin/admin-base.php:331 admin/admin-base.php:339
+#: admin/admin-base.php:345 admin/admin-base.php:353
 msgid "Filters content by language"
 msgstr "言語でコンテンツをフィルターする"
 
-#: admin/admin-base.php:322
+#: admin/admin-base.php:336
 msgid "Show all languages"
 msgstr "すべての言語を表示"
 
-#: admin/admin-base.php:78 admin/admin.php:72 settings/settings-module.php:43
+#: admin/admin-base.php:76 admin/admin.php:70 settings/settings-module.php:43
 msgid "Settings"
 msgstr "設定"
 
@@ -1734,8 +1734,8 @@ msgid "Site Title"
 msgstr "サイトのタイトル"
 
 #: admin/admin-nav-menu.php:50 admin/admin-nav-menu.php:71
-#: admin/admin-nav-menu.php:74 admin/admin-nav-menu.php:103
-#: admin/admin-nav-menu.php:169 install/upgrade.php:320
+#: admin/admin-nav-menu.php:74 admin/admin-nav-menu.php:104
+#: admin/admin-nav-menu.php:169 install/upgrade.php:322
 msgid "Language switcher"
 msgstr "言語スイッチャー"
 
@@ -1771,35 +1771,35 @@ msgstr "言語が追加されました。"
 msgid "Impossible to add the language."
 msgstr "この言語は追加できません。"
 
-#: admin/admin-static-pages.php:86
+#: admin/admin-static-pages.php:127 admin/admin-static-pages.php:144
 msgid "The chosen static front page must be translated in all languages."
 msgstr "選択されている静的フロントページは、すべての言語で翻訳されている必要があります。"
 
-#: admin/admin-filters.php:178
+#: admin/admin-filters.php:188
 msgid "Upgrading language files&#8230;"
 msgstr "言語ファイルのアップグレード中&#8230;"
 
-#: admin/admin-filters.php:138
+#: admin/admin-filters.php:148
 msgid "WordPress default"
 msgstr "WordPress のデフォルト"
 
-#: admin/admin-filters.php:135
+#: admin/admin-filters.php:145
 msgid "Admin language"
 msgstr "管理用言語"
 
-#: admin/admin-filters.php:59 include/translated-post.php:98
+#: admin/admin-filters.php:68 include/translated-post.php:99
 msgid "All languages"
 msgstr "すべての言語"
 
-#: admin/admin-filters.php:56
+#: admin/admin-filters.php:65
 msgid "The widget is displayed for:"
 msgstr "ウジェットを表示する言語:"
 
-#: admin/admin-filters-term.php:479
+#: admin/admin-filters-term.php:481
 msgid "None"
 msgstr "なし"
 
-#: admin/admin-filters-term.php:94 admin/admin-filters-term.php:152
+#: admin/admin-filters-term.php:94 admin/admin-filters-term.php:154
 msgid "Sets the language"
 msgstr "言語を設定する"
 
@@ -1807,19 +1807,19 @@ msgstr "言語を設定する"
 msgid "Edit"
 msgstr "編集"
 
-#: admin/admin-filters-post.php:306
+#: admin/admin-filters-post.php:245
 msgid "(no parent)"
 msgstr "(親なし)"
 
-#: admin/admin-base.php:71 admin/admin-base.php:93
-#: admin/admin-filters-post.php:181 include/translated-post.php:96
+#: admin/admin-base.php:69 admin/admin-base.php:91
+#: admin/admin-filters-post.php:125 include/translated-post.php:97
 #: settings/settings.php:114
 msgid "Languages"
 msgstr "言語"
 
 #: admin/admin-filters-columns.php:187 admin/admin-filters-media.php:54
-#: admin/admin-filters-post.php:213 admin/admin-filters-term.php:87
-#: admin/admin-filters-term.php:144 include/translated-post.php:97
+#: admin/admin-filters-post.php:152 admin/admin-filters-term.php:87
+#: admin/admin-filters-term.php:146 include/translated-post.php:98
 msgid "Language"
 msgstr "言語"
 
