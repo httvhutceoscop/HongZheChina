@@ -13,17 +13,16 @@
             <div class="top_bar">
                 <h3>Recruitments</h3>
 
-                <p>Current location:<a href="#">Home</a><span class="array">&gt;</span><span><span class="red">Recruitments</span></span>
+                <p><a href="#">Home</a><span class="array">&gt;</span><span><span class="red">Recruitments</span></span>
                 </p>
 
             </div>
             <div class="interview about_us">
-                <div class="contact">
-                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                </div>
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                    <section class="entry-content">
+                    <?php the_content(); ?>
+                    </section>
+                <?php endwhile; endif; ?>
             </div>
         </div>
     </div>

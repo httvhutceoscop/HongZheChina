@@ -5,13 +5,18 @@
     <div class="container">
         <div class="footer w1200 clearfix">
             <div class="footer-left">
-                <ul>
-                    <li><a href="#" target="_blank">Home</a><span>|</span></li>
-                    <li><a href="#">Profile</a><span>|</span></li>
-                    <li><a href="#">Recruiments</a><span>|</span></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
-                <p>Copyright All Rights Reserved. <a href="javascript:void(0);">沪ICP备15013578号-1</a></p>
+                <?php wp_nav_menu(array(
+                        //'menu' => 'menu-top-menu',
+                        'theme_location' => 'footer-menu',
+                        'menu_class' => 'nav navbar-nav navbar-center',
+                        'container_class' => 'collapse navbar-collapse',
+                        'container_id' => 'menu-center',
+                        // 'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+                        // 'walker' => new WP_Bootstrap_Navwalker()
+                        // 'link_after' => '<span>|</span>',
+                        // 'after' => '<span>|</span>',
+                ));?>
+                <p>Copyright All Rights Reserved.</p>
             </div>
             <span class="safe">
                 <span id="cnzz_stat_icon_1000255680">
@@ -30,7 +35,7 @@
                 <p>(Monday-Friday:9:00-18:00)</p>
             </div>
         </div>
-    </div>    
+    </div>
 </footer>
 
 

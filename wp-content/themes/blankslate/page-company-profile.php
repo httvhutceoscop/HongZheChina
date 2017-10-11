@@ -1,28 +1,46 @@
 <?php /*Template Name: Company Profile Page*/ ?>
 <?php get_header(); ?>
 
+<?php
+$current_lang = pll_current_language();
+$t_post = null;
+$tt = 'Culture';
+
+if ($current_lang == 'vi') {
+    $t_post = get_post(112);
+} else {
+    $t_post = get_post(114);
+}
+$tt = $t_post->post_title;
+
+if (is_user_logged_in()) {
+
+}
+
+?>
+
 <div class="container">
     <div class="row">
-        <div class="sidebar col-md-3">
+        <!-- <div class="sidebar col-md-3">
             <h3>Company</h3>
             <ul>
                 <li class="active"><a href="#">Profile</a></li>
                 <li><a href="#">Culture</a></li>
                 <li><a href="#">System construction</a></li>
             </ul>
-        </div>
-        <div class="company_introduction col-md-9">
+        </div> -->
+        <div class="company_introduction col-md-12">
             <div class="top_bar">
                 <h3>Company Profile</h3>
-                <p>Current location:<a href="<?php echo pll_home_url();?>"> Home</a><span class="array">&gt;</span><a href="#" class="red"><?php the_title(); ?></a></p>
+                <p><a href="<?php echo pll_home_url();?>"> Home</a><span class="array">&gt;</span><a href="#" class="red"><?php the_title(); ?></a></p>
             </div>
-            <div class="interview about_us">
+            <div class="interview">
                 <div class="about-intro">
                     <div class="about-intro-hd">
                         <ul class="clearfix" id="tab-hd">
                             <li class="cur"><?php the_title(); ?><span></span></li>
-                            <li>Culture<span></span></li>
                             <li>System construction<span></span></li>
+                            <li><?php echo $tt; ?><span></span></li>
                         </ul>
                     </div>
                     <div clas="about-intro-bd" id="tab-bd">
@@ -71,106 +89,21 @@
                             </div>
                         </div>
 
-                        <div class="fzlc" style="display: none">
-                            <dl class="clearfix">
-                                <dt><strong>2017<i></i><em></em></strong></dt>
-                                <dd>
-                                    <strong>2017-7<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2017-6<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-
-                                <dd>
-                                    <strong>2017-5<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2017-4<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2017-1<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt><strong>2016<i></i><em></em></strong></dt>
-                                <dd>
-                                    <strong>2016-10<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2016-8<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2016-6<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2016-4<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2016-1<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt><strong>2015<i></i><em></em></strong></dt>
-                                <dd>
-                                    <strong>2015-10<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2015-08<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2015-06<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2015-05<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2015-04<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2015-03<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                                <dd>
-                                    <strong>2015-01<em></em></strong>
-                                    <p>Lorem ipsum dolor sit amet, vocent laboramus at pri, mel velit viris id. Per at diam iracundia, usu wisi tacimates expetenda eu, ea graeci.</p>
-                                </dd>
-                            </dl>
+                        <div class="gwtd" style="display: none">
+                            <section class="entry-content">
+                                <img src="http://longvietgroup.com/wp-content/uploads/2017/08/so-do-cong-ty.png" alt="so do to chuc">
+                            </section>
                         </div>
 
-                        <div class="gwtd" style="display: none">
-                            <ul>
-
-                            <?php for ($i = 0; $i < 8; $i++) { ?>
-
-                                <li>
-                                    <div class="pic">
-                                        <img width="178" height="220" src="<?php echo get_theme_file_uri('/assets/images/default-178x220.png');?>">
-                                    </div>
-                                    <div class="con">
-                                        <h3>Mr  &nbsp;&nbsp;&nbsp;&nbsp;  Title <?php echo ($i+1);?></h3>
-                                        <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.
-                                        </p>
-                                    </div>
-                                </li>
-
-                            <?php } ?>
-                                
-                            </ul>
+                        <div class="fzlc" style="display: none">
+                            <section class="entry-content">
+                            <?php
+                                // if (is_user_logged_in()) {
+                                    $content = apply_filters('the_content', $t_post->post_content);
+                                    echo $content;
+                                // }
+                            ?>
+                            </section>
                         </div>
 
                     </div>
