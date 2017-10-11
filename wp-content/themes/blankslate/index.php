@@ -14,6 +14,7 @@ if ($current_lang == 'zh') {
     $cat_id = 24;
 }
 query_posts( 'cat='.$cat_id.'&posts_per_page=5');
+$num = 0;
 ?>
 
 <div id="news" role="news" class="section">
@@ -28,7 +29,7 @@ query_posts( 'cat='.$cat_id.'&posts_per_page=5');
                         <li class="news">
                             <span class="news-left">
                                 <p class="data-day"><?php the_date('d'); ?></p>
-                                <p class="data-year-month"><?php the_date('d-Y-m'); ?></p>
+                                <p class="data-year-month"><?php the_date('Y-m'); ?></p>
                             </span>
                             <span class="news-right">
                                 <p class="news-header">
@@ -44,15 +45,18 @@ query_posts( 'cat='.$cat_id.'&posts_per_page=5');
                            <a class="arrows-right" href="<?php the_permalink(); ?>"></a>
                         </li>
                     <?php
+                    $num++;
                     endwhile;
                     wp_reset_query();
                     ?>
                 </ul>
             </div>
+            <?php if ($num > 3) { ?>
             <div class="news-btn">
                 <div class="btn-up"></div>
                 <div class="btn-down unabled"></div>
             </div>
+            <?php } ?>
         </div>
     </div>
 </div>
