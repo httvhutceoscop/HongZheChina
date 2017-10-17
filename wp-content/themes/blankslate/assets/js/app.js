@@ -2,6 +2,24 @@ $(document).ready(function(){
 
     console.log('here');
 
+    /**=====================================
+    *  sponsor Carousel
+    * =====================================*/
+    $('.client-carousel').owlCarousel({
+       autoPlay: true,
+       pagination: false,
+       loop:true,
+       navigation:false,
+       items: 7,
+       itemsDesktop: [1366, 5],
+       itemsDesktopSmall: [768,3],
+       itemsTablet: [650, 1],
+       navigationText: [
+         "<i class='fa fa-angle-left'></i>",
+         "<i class='fa fa-angle-right'></i>"
+         ]
+    });
+
     //æœç´¢æ¡†
     var selectStatus = false;//
     $('#keyWord').focus(function () {

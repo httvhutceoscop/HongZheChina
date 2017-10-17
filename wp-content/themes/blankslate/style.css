@@ -16,7 +16,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 
 body {
     font: 14px/1.5 Microsoft YaHei, "微软雅黑", sans-serif;
-    color: #111111;
+    color: #5a596a;
     background: #ffffff;
 }
 
@@ -27,17 +27,8 @@ body {
     margin-top: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: #666;
-}
 img {
     max-width: 100%;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #333;
 }
 
 :link,
@@ -48,36 +39,6 @@ ins {
 
 :focus {
     outline: 0;
-}
-
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-button,
-textarea,
-p,
-blockquote,
-th,
-td {
-    margin: 0;
-    padding: 0;
 }
 
 ol,
@@ -97,6 +58,16 @@ var,
 optgroup {
     font-style: normal;
     font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1e1e27;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -149,10 +120,17 @@ optgroup {
     vertical-align: middle;
 }
 
+.header #menu-center ul li:hover {
+    background: #4367b1;
+}
+
+.header #menu-center ul li.current-menu-item {
+    background: #405e9a;
+}
+
 .header #menu-center ul li.current-menu-item a,
 .header #menu-center ul li:hover a {
-    color: #4367b1;
-    font-weight: 600;
+    color: #ffffff;
 }
 
 
@@ -407,36 +385,41 @@ optgroup {
     margin-bottom: 60px;
 }
 
-.section-title {
-    padding: 40px 0;
+.section-heading h2 {
+    margin-bottom: 10px;
+    font-weight: 300;
     font-size: 32px;
     text-transform: uppercase;
     color: #4367b1;
 }
 
-.main-content #service .serve-box {
-    // padding: 0 54px;
+.section-heading.text-center p {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main-content #service .serve-box .serve-name {
+.section-sub-title {
+    text-align: center;
+}
+
+.serve-box .serve-name {
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
-    /* background: #a00015; */
     background: #4367b1;
     font-size: 16px;
     padding: 20px 15px;
 }
 
-.main-content #service .serve-box .serve-text {
-    background: #fbf9f4;
+.serve-box .serve-text {
+    background: #f7f8fa;
     display: block;
     padding: 15px;
     line-height: 25px;
     overflow: hidden;
 }
 
-.main-content #service .serve-box .serve-name:hover {
+.serve-box .serve-name:hover {
     background: #cd9002;
 }
 
@@ -604,7 +587,7 @@ optgroup {
 .contact p {
     font-size: 13px;
     color: #666;
-    margin: 10px 0 !important;
+    margin: 0 !important;
     text-indent: 20px;
 }
 
@@ -904,9 +887,10 @@ img {
 /* Footer */
 
 #footer {
-    border-top: 1px solid #e6e6e6;
+    border-top: 1px solid #eaeaea;
     margin-top: 30px;
-    background: #e6e6e6;
+    background: #eaeaea;
+    padding: 20px 0;
 }
 
 .footer {
@@ -959,6 +943,56 @@ img {
     font-size: 14px;
     text-align: right;
 }
+
+.footer-middle {
+    line-height: 62px;
+}
+
+.copyright {
+    color: #585858;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.copyright-area {
+    border-top: 1px solid #ebebeb;
+    padding-top: 20px;
+}
+
+.copyright-text {
+    margin-bottom: 20px;
+}
+
+.footer-menu {
+    margin-bottom: 20px;
+}
+.footer-menu ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.footer-menu ul li:after {
+    content: '|';
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-menu ul li:last-child:after {
+    content: '';
+}
+.footer-menu .nav>li>a {
+    display: inline-block;
+    padding: 0;
+}
+
+@media (max-width: 991px) {
+    .copyright-area {
+        text-align: center;
+    }
+    .copyright-area .footer-menu {
+        text-align: center;
+    }
+}
+
+
 
 
 
