@@ -11,12 +11,15 @@ function blankslate_setup()
     register_nav_menus(
         array('main-menu' => __('Main Menu', 'blankslate'))
     );
+    register_nav_menus(
+        array('footer-menu' => __('Footer Menu', 'blankslate'))
+    );
 }
 /**
  * Enqueue scripts and styles.
  */
 function blankslate_load_scripts()
-{   
+{
     // Theme stylesheet.
     wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/css/bootstrap.min.css');
     wp_enqueue_style('bootstrap-theme', get_template_directory_uri().'/assets/css/bootstrap-theme.min.css');
@@ -74,7 +77,7 @@ function blankslate_custom_pings($comment)
     $GLOBALS['comment'] = $comment;
     ?>
 <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>"><?php echo comment_author_link(); ?></li>
-<?php 
+<?php
 }
 add_filter('get_comments_number', 'blankslate_comments_number');
 function blankslate_comments_number($count)

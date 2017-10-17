@@ -5,117 +5,40 @@
 
 <div class="container">
     <div class="news-title">
-        <a href="#" id="news3" class="first active">Latest</a>
-        <!-- <a href="javascript:void(0);" id="news5">弘哲资讯</a> -->
-        <!-- <a href="javascript:void(0);" id="news6">弘哲人</a> -->
+        <a href="#" id="news3" class="first active"><?php single_cat_title(); ?></a>
     </div>
 
     <div class="news-container">
         <div class="news-item" id="news-item3">
             <ul class="news-list row">
-            <?php for($i = 0; $i < 7; $i++) {?>
-                <li class="col-md-4 col-xs-12">
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            <?php //get_template_part( 'entry' ); ?>
+            <?php //edit_post_link(); ?>
+                <li class="col-md-4 col-xs-12 article post-<?php the_ID(); ?>">
                     <div class="list-inner">
-                    <h3><a href="#">Lorem ipsum dolor sit amet, posse aeterno accommodare ei vel. Debet moderatius.</a></h3>
+                        <h2 class="entry-title">
+                            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a>
+                        </h2>
                         <dl>
                             <dt>
-                                <img src="<?php echo get_theme_file_uri('/assets/images/20164131526.jpg');?>" onerror="javascript:this.src='<?php echo get_theme_file_uri('/assets/images/default.jpg');?>'">
+                            <?php if ( has_post_thumbnail() ) { ?>
+                                <?php the_post_thumbnail(); ?>
+                            <?php } else { ?>
+                                <img width="252" height="178" src="http://via.placeholder.com/252x178" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="">
+                            <?php } ?>
                             </dt>
                             <dd>
-                                <p>Lorem ipsum dolor sit amet, posse aeterno accommodare ei vel. Debet moderatius.</p>
-                                <div class="news-list-footer">
-                                    <a href="#">Detail &gt;</a> 2016-04-05
+                                <div class="entry-summary">
+                                <?php echo wp_trim_words(get_the_excerpt(), 25, ' ...'); ?>
                                 </div>
                             </dd>
                         </dl>
                     </div>
                 </li>
-            <?php }?>
+            <?php endwhile; endif; ?>
             </ul>
-            
         </div>
-        <div class="news-item" style="display: none" id="news-item5">
-            <ul class="new-list2">
 
-            </ul>
-
-            <div class="pages" style="text-align: center; margin-top: 10px;">
-
-                <div class="pages fr">
-                    <span class="pagesInfo">1/1页</span>
-                    <a href="/news-3.html?Page=9&amp;sPage=1" class="firstPage" title="第一页">&nbsp;</a>
-                    <a href="/news-3.html?Page=9&amp;sPage=1" class="prevPage" title="上一页">&nbsp;</a>
-
-                    <a href="/news-3.html?Page=9&amp;sPage=1" class="current">1</a>
-
-                    <a href="/news-3.html?Page=9&amp;sPage=1" class="nextPage" title="下一页">&nbsp;</a>
-                    <a href="/news-3.html?Page=9&amp;sPage=1" class="lastPage" title="最后页">&nbsp;</a>
-                </div>
-
-            </div>
-        </div>
-        <div class="news-item" style="display: none" id="news-item6">
-            <div class="news-hzr">
-                <div class="news-hzr-top">
-                    <div class="news-hzr-left">
-                        <div class="slide-banner">
-                            <ul class="slide-list">
-
-                            </ul>
-                            <div class="slide-title">
-                                <p></p>
-                            </div>
-                            <div class="num">
-                                <ul></ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-hzr-right">
-                        <div class="news-hzr-first">
-
-                        </div>
-                        <div class="news-hzr-second">
-
-                        </div>
-                        <ul class="news-hzr-right-list">
-
-                        </ul>
-                    </div>
-                </div>
-
-                <h2 class="news-hzr-title"><span>最荣誉</span></h2>
-                <div class="zry-img-list" id="demo">
-                    <div class="zry-banner">
-                        <div class="zry-banner-box" id="banner1">
-                            <ul>
-
-                            </ul>
-                        </div>
-                        <div id="banner2" class="zry-banner-box">
-                            <ul>
-
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <h2 class="news-hzr-title"><span>最生活</span></h2>
-                <div class="zsh-container">
-                    <div class="zsh-item fl">
-
-                        <ul>
-
-                        </ul>
-                    </div>
-                    <div class="zsh-item fr">
-
-                        <ul>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -235,21 +158,39 @@
 
     .news-list li > div.list-inner { border: 1px solid #ddd; overflow: hidden; padding: 10px;}
 
-    .news-list h3 { font-size: 14px; color: #3c3c3c; font-weight: normal; margin-bottom: 10px; }
+    h2.entry-title {
+        margin-bottom: 5px;
+        line-height: normal;
+    }
+    .news-list .entry-title { font-size: 14px; color: #3c3c3c; font-weight: normal; margin-bottom: 10px; }
+    .news-list .entry-title a {
+        font: 700 14px arial;
+        color: #333;
+        position: relative;
+        z-index: 3;
+    }
+
+    .news-list .entry-title a:hover {
+        color: #004f8b!important;
+        text-decoration: none;
+    }
+
+    .news-list .entry-summary {
+        margin-bottom: 5px;
+        color: #333;
+        font: 400 13px/16px arial;
+    }
 
     .news-list dl { overflow: hidden; }
 
-    .news-list dt { float: left; width: 155px; height: 87px; }
+    .news-list dt { float: left; width: 155px; height: auto; }
 
-    .news-list dt img { width: 155px; height: 87px; }
+    .news-list dt img { max-width: 100%; height: auto; }
 
     .news-list dd { overflow: hidden; padding-left: 10px; }
 
     .news-list dd p { font-size: 12px; color: #555; line-height: 20px; }
 
-    .news-list-footer { margin-top: 5px; font-size: 12px; color: #555; }
-
-    .news-list-footer a { float: right; color: #d60b18; }
     /*弘哲人*/
     .news-hzr-top { overflow: hidden; }
 
@@ -371,11 +312,10 @@
 
 
 
-
-
 <section id="content" role="main" class="hide">
 <header class="header">
-<h1 class="entry-title"><?php _e( 'Category Archives: ', 'blankslate' ); ?><?php single_cat_title(); ?></h1>
+<h1 class="entry-title">
+<?php _e( 'Category Archives: ', 'blankslate' ); ?><?php single_cat_title(); ?></h1>
 <?php if ( '' != category_description() ) echo apply_filters( 'archive_meta', '<div class="archive-meta">' . category_description() . '</div>' ); ?>
 </header>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

@@ -20,9 +20,19 @@ body {
     background: #ffffff;
 }
 
+.mgr-b-10 {
+    margin-bottom: 10px;
+}
+.mgr-t-10 {
+    margin-top: 10px;
+}
+
 a {
     text-decoration: none;
     color: #666;
+}
+img {
+    max-width: 100%;
 }
 
 a:hover {
@@ -342,7 +352,7 @@ optgroup {
 }
 
 .main-content .news-content .news-right .news-header {
-    font-size: 26px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
@@ -578,7 +588,7 @@ optgroup {
     color: #4367b1;
 }
 
-.about_us {
+.about_us, .interview {
     padding: 20px 0;
 }
 
@@ -592,7 +602,7 @@ optgroup {
 }
 
 .contact p {
-    font-size: 14px;
+    font-size: 13px;
     color: #666;
     margin: 10px 0 !important;
     text-indent: 20px;
@@ -710,7 +720,7 @@ optgroup {
 }
 
 .interview span {
-    color: #4367b1;
+    /* color: #4367b1; */
 }
 
 .gwtd li {
@@ -744,7 +754,7 @@ img {
 }
 
 .fzlc {
-    background: url(assets/images/line.jpg) repeat-y 150px 0;
+    /* background: url(assets/images/line.jpg) repeat-y 150px 0; */
 }
 
 .fzlc dl dt {
@@ -1061,4 +1071,15 @@ img {
         width: 20%;
         float: left;
     }
+}
+
+/* Update */
+.entry-content {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.entry-content p {
+    margin: 0 0 1em;
+    line-height: 18px;
+    text-rendering: geometricPrecision;
 }

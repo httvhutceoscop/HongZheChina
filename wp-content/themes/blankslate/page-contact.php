@@ -8,69 +8,18 @@
 
 <div class="container">
     <div class="row">
-        <div class="sidebar col-md-3">
-
+        <!-- <div class="sidebar col-md-3">
             <h3>Contact Us</h3>
             <ul>
                 <li class="active"><a href="#">Contact Information</a></li>
                 <li><a href="#">Careers</a></li>
             </ul>
-            <form method="post" action="#" id="form1">
-                <div class="aspNetHidden">
-                    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODQ4Njg4OTcwZGQ8uXzZ+OXEeMHVtQ9s7e71XjXSYn9Yj5yoKY0dq/bBRw==">
-                </div>
-
-                <div class="aspNetHidden">
-
-                    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E809BCA5">
-                    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA17a/+RtvLHdYDq3yVIHSt6AAtKZt4xVE2zWCN5m43omsk4l0wQSkUOpd+GwXtBo0JEJCihyjNGKWjTu/I67jWGqid2JP+xtO/GacCVXauj2xylO8fVA7+tO9UhPdshhp10NSHwRpzSVLRJ5VVXgBmM12EsYGhlshFPwqBzsNY9f2IPvYeDG74krley9jUXoMLJ4kfXMuzDgOM4kqZM6xazC66dlIqcZAfsPLcX5yl2+vJmnhHgf6/0AewZpxr/joErZHAK7iV5Rn1p0rzaM4NrUqX9c26DdRUtSEy3u2ItogjQ0IYU2P/KMrG0+RW3nHo=">
-                </div>
-                <div class="online_apply" style="display:none">
-                    <h3><i class="iedit"></i>在线申请</h3>
-                    <div class="form">
-                        <ol>
-                            <li>
-                                <span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</span>
-                                <input name="Order1$OrderName" type="text" id="Order1_OrderName" placeholder="请输入您的姓名">
-                            </li>
-                            <li>
-                                <span>联系电话：</span>
-                                <input name="Order1$OrderPhone" type="text" id="Order1_OrderPhone" placeholder="请输入您的联系电话">
-                            </li>
-                            <li>
-                                <span>所在城市：</span>
-                                <select name="Order1$OrderCity" id="Order1_OrderCity">
-                                    <option value="上海">上海</option>
-                                    <option value="北京">北京</option>
-                                    <option value="天津">天津</option>
-                                    <option value="上海">宁波</option>
-                                    <option value="苏州">苏州</option>
-                                    <option value="杭州">杭州</option>
-                                    <option value="青岛">青岛</option>
-                                    <option value="其他">其他</option>
-
-                                </select>
-                            </li>
-                            <li>
-                                <span>我要办理：</span>
-                                <select name="Order1$OrderCategory" id="Order1_OrderCategory">
-                                    <option value="我要出借">我要出借</option>
-                                    <option value="我要借款">我要借款</option>
-
-                                </select>
-                            </li>
-                        </ol>
-                        <input type="submit" name="Order1$SubmitButton" value="" id="Order1_SubmitButton" class="submit_btn">
-                    </div>
-                </div>
-            </form>
-
-        </div>
-        <div class="company_introduction col-md-9">
+        </div> -->
+        <div class="company_introduction col-md-12">
             <div class="top_bar">
                 <h3>Contact Us</h3>
 
-                <p>Current location:<a href="#">Home</a><span class="array">&gt;</span><span><span class="red">Contact Us</span></span>
+                <p><a href="#">Home</a><span class="array">&gt;</span><span><span class="red">Contact Us</span></span>
                 </p>
 
             </div>

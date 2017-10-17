@@ -6,12 +6,17 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="footer-left">
-                    <ul>
-                        <li><a href="#" target="_blank">Home</a><span>|</span></li>
-                        <li><a href="#">Profile</a><span>|</span></li>
-                        <li><a href="#">Recruiments</a><span>|</span></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
+                <?php wp_nav_menu(array(
+                        //'menu' => 'menu-top-menu',
+                        'theme_location' => 'footer-menu',
+                        'menu_class' => 'nav navbar-nav navbar-center',
+                        'container_class' => 'collapse navbar-collapse',
+                        'container_id' => 'menu-center',
+                        // 'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+                        // 'walker' => new WP_Bootstrap_Navwalker()
+                        // 'link_after' => '<span>|</span>',
+                        // 'after' => '<span>|</span>',
+                ));?>
                 </div>
             </div>
             <div class="col-md-3">
@@ -39,7 +44,7 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
 </footer>
 
 
