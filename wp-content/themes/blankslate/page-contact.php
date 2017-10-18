@@ -17,23 +17,18 @@
         </div> -->
         <div class="company_introduction col-md-12">
             <div class="top_bar">
-                <h3>Contact Us</h3>
+                <h3><?php the_title(); ?></h3>
 
-                <p><a href="#">Home</a><span class="array">&gt;</span><span><span class="red">Contact Us</span></span>
+                <p><a href="#">Home</a><span class="array">&gt;</span><span><span class="red"><?php the_title(); ?></span></span>
                 </p>
 
             </div>
             <div class="interview about_us">
-                <div class="contact"><a target="_blank" href="#"><img border="0" src="<?php echo get_theme_file_uri('/assets/images/distribution-map.jpg');?>"></a>
-                    <p>Lorem ipsum dolor sit amet, ut sanctus commune sed. Cu laoreet luptatum explicari sed. Ei per possim animal fastidii, ea.</p>
-                    <h3 class="address">Headquarters address</h3>
-                    <p>Lorem ipsum dolor sit amet, ut sanctus commune sed. Cu laoreet luptatum explicari sed. Ei per possim animal fastidii, ea.</p><img border="0" src="<?php echo get_theme_file_uri('/assets/images/20150612155655315.jpg');?>">
-                    <h3 class="phone">Switchboard phone</h3>
-                    <p>National Customer Service Hotline:<span>400-835-9699</span>Fax: <span>021-62268927&nbsp;</span>Switchboard:<span>021-62268921&nbsp;</span></p>
-                    <h3 class="email">E-mail</h3>
-                    <p>E-mail：<span>contact@hzjituan.com<span></span></span>
-                    </p>
-                </div>
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <section class="entry-content">
+                <?php the_content(); ?>
+                </section>
+                <?php endwhile; endif; ?>
             </div>
         </div>
     </div>

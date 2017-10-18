@@ -5,11 +5,13 @@
 $current_lang = pll_current_language();
 $t_post = null;
 $tt = 'Culture';
+$so_do = 'Sơ đồ tổ chức';
 
 if ($current_lang == 'vi') {
     $t_post = get_post(112);
 } else {
     $t_post = get_post(114);
+    $so_do = '组织图';
 }
 $tt = $t_post->post_title;
 
@@ -31,7 +33,7 @@ if (is_user_logged_in()) {
         </div> -->
         <div class="company_introduction col-md-12">
             <div class="top_bar">
-                <h3>Company Profile</h3>
+                <h3><?php the_title(); ?></h3>
                 <p><a href="<?php echo pll_home_url();?>"> Home</a><span class="array">&gt;</span><a href="#" class="red"><?php the_title(); ?></a></p>
             </div>
             <div class="interview">
@@ -39,7 +41,7 @@ if (is_user_logged_in()) {
                     <div class="about-intro-hd">
                         <ul class="clearfix" id="tab-hd">
                             <li class="cur"><?php the_title(); ?><span></span></li>
-                            <li>System construction<span></span></li>
+                            <li><?php echo $so_do; ?><span></span></li>
                             <li><?php echo $tt; ?><span></span></li>
                         </ul>
                     </div>
@@ -56,42 +58,11 @@ if (is_user_logged_in()) {
                             <?php the_content(); ?>
                             </section>
                             <?php endwhile; endif; ?>
-
-                            <h3><span>Hongzhe company's brand</span></h3>
-
-                            <div class="about-jtjs-hd">
-                                <ul class="clearfix">
-                                    <li>
-                                        <img src="<?php echo get_theme_file_uri('/assets/images/jtjs-img03.jpg');?>"><span></span> </li>
-                                    <li>
-                                        <img src="<?php echo get_theme_file_uri('/assets/images/jtjs-img-02.jpg');?>"><span></span> </li>
-                                    <li>
-                                        <img src="<?php echo get_theme_file_uri('/assets/images/jtjs-img05.jpg');?>"><span></span> </li>
-                                    <li>
-                                        <img src="<?php echo get_theme_file_uri('/assets/images/xuanwuzhihuiLogo2.jpg');?>"><span></span> </li>
-                                    <li>
-                                        <img src="<?php echo get_theme_file_uri('/assets/images/huashanyuanLogo.jpg');?>"><span></span> </li>
-                                    <li>
-                                        <img src="<?php echo get_theme_file_uri('/assets/images/yuduoduoLogo.jpg');?>"><span></span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="about-jtjs-bd">
-                                <?php for ($i = 0; $i < 7; $i++) { ?>
-                                <div style="display: none;">
-                                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                                    <?php if($i %2 ==0) {?>
-                                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                                    <p>Lorem ipsum dolor sit amet, ei malorum nusquam prodesset mei, duo ea inciderint signiferumque vituperatoribus, et qui nulla disputationi. Ne pro ullum omittam lucilius. Sea augue affert phaedrum id, ullum reprimique vix.</p>
-                                    <?php }?>
-                                </div>
-                                <?php }?>
-                            </div>
                         </div>
 
                         <div class="gwtd" style="display: none">
                             <section class="entry-content">
-                                <img src="http://longvietgroup.com/wp-content/uploads/2017/08/so-do-cong-ty.png" alt="so do to chuc">
+                                <img style="max-width: 670px;" src="http://longvietgroup.com/wp-content/uploads/2017/08/so-do-cong-ty.png" alt="so do to chuc">
                             </section>
                         </div>
 

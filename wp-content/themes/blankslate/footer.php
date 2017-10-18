@@ -35,7 +35,7 @@
             <div class="col-md-3">
                 <div class="contact">
                     <img src="<?php echo get_theme_file_uri('/assets/images/contact.png');?>">
-                    <p>(Thứ 2 - Thứ 6: 9:00-18:00)</p>
+                    <p>Thứ 2 - thứ 6, 8:00AM - 17:00PM</p>
                 </div>
             </div>
         </div>
@@ -53,12 +53,21 @@
 <div class="copyright-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="copyright-text">
-                    © Copyright <?php echo date('Y'); ?> LongViet. All rights reserved.
+                    <div class="address">
+                        <i class="fa fa-map-o" aria-hidden="true"></i> Công ty TNHH Quản lý Đầu tư Long Việt, Tầng 23, toà nhà Lotte Center, 54A Liễu Giai, Cống Vị, Ba Đình, Hà Nội
+                    </div>
+                    <div class="email">
+                        <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@longvietgroup.com">info@longvietgroup.com</a>
+                    </div>
+                    <div class="phone mgrb10">
+                        <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:02473098986">024-7309-8986</a>
+                    </div>
+                    <div>© Copyright <?php echo date('Y'); ?> Long Viet Group. All rights reserved.</div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="footer-menu text-right">
                     <?php wp_nav_menu(array(
                             //'menu' => 'menu-top-menu',

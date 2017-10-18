@@ -18,6 +18,7 @@ body {
     font: 14px/1.5 Microsoft YaHei, "微软雅黑", sans-serif;
     color: #5a596a;
     background: #ffffff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .mgr-b-10 {
@@ -254,6 +255,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .lang-item {
     display: inline;
+}
+
+.lang-item a img {
+    width: 22px;
 }
 
 
@@ -957,6 +962,11 @@ img {
 .copyright-area {
     border-top: 1px solid #ebebeb;
     padding-top: 20px;
+}
+
+.copyright-area .address,
+.copyright-area .email {
+    margin-bottom: 10px;
 }
 
 .copyright-text {

@@ -9,9 +9,6 @@
 </div>
 
 <?php include('section-homepage/recent-news.php'); ?>
-<?php include('section-homepage/services.php'); ?>
-<?php include('section-homepage/slogan.php'); ?>
-<?php include('section-homepage/organization.php'); ?>
 <?php include('section-homepage/client.php'); ?>
 
 

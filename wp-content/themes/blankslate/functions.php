@@ -20,6 +20,10 @@ function blankslate_setup()
  */
 function blankslate_load_scripts()
 {
+
+    // Font awesome css
+    wp_enqueue_style('font-awesome', get_template_directory_uri().'/assets/css/font-awesome.min.css');
+
     // Theme stylesheet.
     wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/css/bootstrap.min.css');
     wp_enqueue_style('bootstrap-theme', get_template_directory_uri().'/assets/css/bootstrap-theme.min.css');

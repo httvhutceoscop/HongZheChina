@@ -1,0 +1,185 @@
+Tổng kết tình hình phát triển website Long Việt 2017/10/18: 
+
+Tiến độ:
+- Gần xong, mọi trang đều làm nửa chừng nhưng chưa trang nào xong 
+
+Actions:
+
+1. Phía Long Việt làm hết content, theo thứ tự sau
+
+1.1 Tiếng Việt
+- Main page: Bài viết, ảnh, logo đối tác
+- Giới thiệu
+- Tin tức
+- Tuyển dụng
+- Liên hệ
+
+1.2 Sau khi xong hẳn UI/content tiếng Việt thì chuyển sang tiếng Trung
+- Long Việt: Nội dung
+- Dev: Thiết kế (sẽ không nhiều vì UI tiếng Trung và Việt là same same nhau)
+
+2. Review (cả 2 phía)
+
+3. Update lại website
+
+Lộ trình
+
+1.1: Trong 4 ngày 2017/10/18 ~ 2017/10/22
+1.2: Trong 4 ngày 2017/10/23 ~ 2017/10/27
+2 + 3: 2017/10/28 ~ 2017/10/30: Review + Update + Nghiệm thu
+
+Issue:
+- Hai bên chưa hiểu ý tưởng
+- Trao đổi về thiết kế qua FB messenger không hiệu quả. Cần gặp trực tiếp.
+
+Nhận xét của Hưng
+- Cần test trên ở smartphone (nhiều loại)
+- Chọn ảnh đẹp hơn
+- Chọn hệ màu hợp lý
+- Hoàn thiện dần content từng trang, review chốt từng trang
+
+----
+
+@Việt: Xem và sửa từ phần này trở xuống 
+
+Feedbacks from Hưng
+
+1. Thêm favicon http://longvietgroup.com/
+2. Test lại trên smartphone
+3. Thêm địa chỉ, email, tel vào footer 
+4. Cái nào không/chưa có content, không liên quan -> bỏ, huỷ
+
+
+Trang top:
+
+Feedbacks from Long Việt (Uyên, Phương)
+
+headers:
+1. Flag: luôn hiện 2 cái: Trung, Việt, kích cỡ to hơn
+1.1 Cờ hiện sát mép trên trang
+2. Thời gian: Thứ 2 - thứ 6, 8:00AM -> 17:00PM
+3. Số điện thoại: Ấn vào thì call luôn
+4. Logo: To hơn chút, graphics to hơn, vẽ lại trên AI 
+5. Menu: Nội dung OK
+
+5.1 slider ảnh trong Home: Giảm size từ 100% -> 70% (nhỏ hơn)
+
+6. favicon: thêm "LV" đỏ, cắt từ logo
+7. Tên website là "Long Viet group" (hiện tại: HongZhe China)
+8. Ảnh slide, lấy 4 cái. Mang tính chất đầu tư, search từ khóa "ảnh tài chính", 
+   Lấy 4 ảnh sau: 
+   
+  (Bỏ ảnh con ngựa)
+   https://www.google.com.vn/imgres?imgurl=http%3A%2F%2Fstatic.tapchitaichinh.vn%2FUploaded%2Fhoangthuviet%2F2017_09_11%2F015_UYJN.jpg&imgrefurl=http%3A%2F%2Ftapchitaichinh.vn%2Fnghien-cuu--trao-doi%2Ftrao-doi-binh-luan%2Fdiem-nhan-tai-chinh-kinh-te-quoc-te-noi-bat-tuan-tu-0408-09-2017-121769.html&docid=1MrTLR9CXS1EiM&tbnid=ysPXjrNIua4WqM%3A&vet=10ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQMwgqKAYwBg..i&w=550&h=364&safe=active&bih=680&biw=1260&q=%E1%BA%A3nh%20t%C3%A0i%20ch%C3%ADnh&ved=0ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQMwgqKAYwBg&iact=mrc&uact=8
+   https://www.google.com.vn/imgres?imgurl=http%3A%2F%2Fstatic.tapchitaichinh.vn%2FUploaded%2Fphammaihanh%2F2015_01_22%2Ffi.jpg&imgrefurl=http%3A%2F%2Ftapchitaichinh.vn%2Fsu-kien-noi-bat%2Ftin-tuc%2Fviet-nam-huong-den-chuan-muc-lap-bao-cao-tai-chinh-quoc-te-57847.html&docid=5JGXhfML0uFT_M&tbnid=iIndktk9sCk9DM%3A&vet=10ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQMwgpKAUwBQ..i&w=670&h=350&safe=active&bih=680&biw=1260&q=%E1%BA%A3nh%20t%C3%A0i%20ch%C3%ADnh&ved=0ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQMwgpKAUwBQ&iact=mrc&uact=8
+   https://www.google.com.vn/imgres?imgurl=http%3A%2F%2Fstatic.tapchitaichinh.vn%2FUploaded%2Fhoangthuviet%2F2017_09_19%2F33_APIA.jpg&imgrefurl=http%3A%2F%2Ftapchitaichinh.vn%2Ftai-chinh-quoc-te%2Ftin-tuc%2Fdiem-nhan-tai-chinh-kinh-te-quoc-te-tuan-tu-1115-09-2017-122337.html&docid=AFTogANpgQ5rsM&tbnid=Tp9yRsStSMGxtM%3A&vet=10ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQMwgoKAQwBA..i&w=548&h=365&safe=active&bih=680&biw=1260&q=%E1%BA%A3nh%20t%C3%A0i%20ch%C3%ADnh&ved=0ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQMwgoKAQwBA&iact=mrc&uact=8
+   https://www.google.com.vn/imgres?imgurl=http%3A%2F%2Fthanhtra.com.vn%2Fportals%2F0%2Fnews_images%2F2016%2F05%2Fkhaithacbich%2Fcareerininvestmentmanagement_u_a_d_a_a_s_a.jpg&imgrefurl=http%3A%2F%2Fthanhtra.com.vn%2Fkinh-te%2Ftai-chinh-ngan-hang%2Fwb-ho-tro-tu-van-va-phan-tich-quan-ly-tai-chinh-cong_t114c1068n103115&docid=xLTAKLMpu6ANFM&tbnid=ElIw_tRWbs-ZNM%3A&vet=10ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQMwgrKAcwBw..i&w=550&h=300&safe=active&bih=680&biw=1260&q=%E1%BA%A3nh%20t%C3%A0i%20ch%C3%ADnh&ved=0ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQMwgrKAcwBw&iact=mrc&uact=8 
+ 
+https://www.google.com.vn/search?q=%E1%BA%A3nh+t%C3%A0i+ch%C3%ADnh&safe=active&dcr=0&tbm=isch&source=lnt&tbs=isz:m&sa=X&ved=0ahUKEwiQr7z1rfnWAhXM0FQKHexzBaAQpwUIHA&biw=1260&bih=680&dpr=2#imgrc=q9wSjCXXSKrVLM:
+
+9. News: Lấy style của news cũ
+9.1 Ảnh trắng: Lấy một ảnh bất kỳ trên google, chủ đề tài chính/chứng khoán, không dùng placeholder image
+Làm style phần news giống như: http://www.hzjituan.com/
+
+9.2 Ảnh tay: Dùng ảnh sau: https://tuyencongnhan.vn/files/untitled%20folder/g%E1%BA%AFn-k%E1%BA%BFt-nh%C3%A2n-vi%C3%AAn-1.jpg
+
+10. taggings trong title của news
+
+Làm giống trong email Uyên gửi
+
+Xem lại email "CONTENT WEB LONG VIỆT" 
+Info Long Viet <info@longvietgroup.com>
+
+11. "DỊCH VỤ": Bỏ
+Bỏ cả: EQUITY INVESTMENT, FUND MANAGEMENT, ASSET MANAGEMENT
+
+12. Thêm "Hoạt động nội bộ"
+
+- Thêm x15 ảnh
+- Uyên gửi 2017/10/18 chiều
+
+13. "PHƯƠNG CHÂM" + hình ở dưới: Bỏ
+
+14. "CÁC TỔ CHỨC"
+
+- Bỏ mọi logo cũ (có tiếng Trung)
+- Thay bằng các logo mới: Viettinbank, BIDV, https://www.ivs.vn/ , http://baodautu.vn/ , http://www.vneco1.com.vn/ , http://www.ssc.gov.vn/ubck/faces/vi/vimenu/vipages_trangchu , https://www.vndirect.com.vn/ , https://vnpay.vn/ , http://cafef.vn/
+
+15. Footer: Thêm địa chỉ
+
+Công ty TNHH Quản lý Đầu tư Long Việt, Tầng 23, toà nhà Lotte Center, 54A Liễu Giai, Cống Vị, Ba Đình, Hà Nội
+
+Email contact: info@longvietgroup.com
+
+---
+
+16. http://longvietgroup.com/gioi-thieu/
+
+Chuyển hết tiếng Anh -> Việt
+
+"Hongzhe company's brand": Xoá
+Bỏ các logo tiếng Trung 
+
+17. Sơ đồ tổ chức: Cho ảnh nhỏ lại
+"System construction": Thay bằng "Sơ đồ tổ chức" (tiếng Việt)
+
+17.1 Thêm section "Tuyển dụng" vào phần dưới của "Tin tức" trong trang chủ
+
+17.2 Thêm video "Góc nhìn chuyên gia" và dưới phần "Tin tức"
+
+Movie: http://vtv.vn/video/tai-chinh-kinh-doanh-trua-05-7-2017-231962.htm
+Phương án 2: Cắt từ giây 00:00 đến 7:44 và đưa lên youtube của công ty trước, nhúng vào web.
+
+----
+
+18. Khi hover ở menu trong http://longvietgroup.com/gioi-thieu/ -> menu bị nhảy
+
+19. http://longvietgroup.com/category/tin-tuc/
+
+- Thay bằng các ảnh tài chính, 1 ảnh thôi (ở slider, dùng ảnh đồng hồ)
+  Dùng ảnh sau: http://static.tapchitaichinh.vn/Uploaded/phammaihanh/2016_03_08/tien_te2_NCHI.jpg
+- Chỉ ảnh, không cần chữ 
+  
+20. List/Sort tin được theo ngày đăng
+21. List/Sort tin được theo chủ đề (tài chính, sự kiện, chứng khoán)
+
+22. http://longvietgroup.com/category/tuyen-dung/
+
+- Dùng ảnh: http://www.mpfireandsecurity.co.uk/wp-content/uploads/2016/06/Career.jpg
+  vào placeholder
+  
+23. Note lại
+Cách edit nội dung website
+
+1. Mở http://longvietgroup.com/wp-login.php
+2. Username = uyen.bui
+3. Password = uyenbui123456
+
+-> đã hướng dẫn, OK cách dùng
+
+24. Trang http://longvietgroup.com/lien-he/
+
+Ảnh header:
+- Cắt phần trái của ảnh hiện tại
+- Bỏ tiếng Trung bên phải
+- Dùng ảnh này cho cả website tiếng Trung + Việt
+(Như vậy ảnh này không có chữ)
+
+Bỏ hết content hiện tại
+Thêm bản đồ Lotte (lấy Google map, chụp, đánh sao, đưa lên)
+
+Thêm địa chỉ:
+
+Công ty TNHH Quản lý Đầu tư Long Việt, Tầng 23, toà nhà Lotte Center, 54A Liễu Giai, Cống Vị, Ba Đình, Hà Nội
+
+Thêm email:
+info@longvietgroup.com
+
+Next steps:
+
+- Thứ 6 2017/10/20: Dev xong được không?
+- Sếp Long Việt duyệt
+- Uyên/Phương duyệt
+
+
+

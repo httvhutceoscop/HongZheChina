@@ -54,14 +54,15 @@
                                 'show_flags'=>1,
                                 'show_names'=>0,
                                 // 'dropdown'=>1,
-                                'hide_current' => 1
+                                // 'hide_current' => 1
                             ];
                             pll_the_languages($args);
                             ?>
                         </ul>
-                        <!-- <div><a href="http://weibo.com/hongzhecaifu" target="_blank">弘哲官方微博</a></div> -->
-                        <img src="<?php echo get_theme_file_uri( '/assets/images/contact.png' ); ?>">
-                        <p>(Thứ 2 - Thứ 6: 9:00-18:00)</p>
+                        <a href="tel:02473098986">
+                            <img src="<?php echo get_theme_file_uri( '/assets/images/contact.png' ); ?>">
+                        </a>
+                        <p>Thứ 2 - thứ 6, 8:00AM - 17:00PM</p>
                     </div>
                 </div>
             </div>

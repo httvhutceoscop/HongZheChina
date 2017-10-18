@@ -26,36 +26,29 @@
     }
 </style>
 
+<div class="section-padding pdb0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading text-center">
+                    <h2>Các tổ chức</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="client-area">
     <div class="container-fluid">
         <div class="client-carousel">
+            <?php 
+                for ($i = 1; $i < 10; $i++) {
+            ?>
             <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client1.png" alt="client">
+                <img src="<?php echo get_parent_theme_file_uri('/assets/images/client/client'.$i.'.png') ?>" alt="client">
             </div>
-            <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client2.png" alt="client">
-            </div>
-            <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client3.png" alt="client">
-            </div>
-            <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client4.png" alt="client">
-            </div>
-            <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client5.png" alt="client">
-            </div>
-            <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client6.png" alt="client">
-            </div>
-            <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client7.png" alt="client">
-            </div>
-            <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client1.png" alt="client">
-            </div>
-            <div class="client-logo">
-                <img src="http://arifix.website/tf/preview/kalkulate/images/client/client2.png" alt="client">
-            </div>
+            <?php        
+                }
+            ?>
         </div>
     </div>
 </div>
