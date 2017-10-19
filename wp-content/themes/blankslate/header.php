@@ -23,7 +23,7 @@
                         <div class="navbar-header">
                             <div id="logo_mobile">
                                 <a class="logo" href="/">
-                                    <img src="<?php echo get_theme_file_uri( '/assets/images/logo.png' ); ?>" alt="Logo">
+                                    <img src="<?php echo get_theme_file_uri( '/assets/images/logo-h.png' ); ?>" alt="Logo">
                                 </a>
                             </div>
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-center">
@@ -47,22 +47,27 @@
                     </nav>
                 </div>
                 <div class="col-md-3">
-                    <div class="contact">
-                        <ul>
-                            <?php 
-                            $args = [
-                                'show_flags'=>1,
-                                'show_names'=>0,
-                                // 'dropdown'=>1,
-                                // 'hide_current' => 1
-                            ];
-                            pll_the_languages($args);
-                            ?>
-                        </ul>
-                        <a href="tel:02473098986">
-                            <img src="<?php echo get_theme_file_uri( '/assets/images/contact.png' ); ?>">
-                        </a>
-                        <p>Thứ 2 - thứ 6, 8:00AM - 17:00PM</p>
+                    <div class="right-header">
+                        <div class="lang text-right">
+                            <ul>
+                                <?php 
+                                $args = [
+                                    'show_flags'=>1,
+                                    'show_names'=>0,
+                                    // 'dropdown'=>1,
+                                    // 'hide_current' => 1
+                                ];
+                                pll_the_languages($args);
+                                ?>
+                            </ul>
+                        </div>
+                        <div class="contact">
+                            
+                            <a href="tel:02473098986">
+                                <img src="<?php echo get_theme_file_uri( '/assets/images/contact.png' ); ?>">
+                            </a>
+                            <p>Thứ 2 - thứ 6, 8:00AM - 17:00PM</p>
+                        </div>
                     </div>
                 </div>
             </div>
